@@ -20,10 +20,10 @@ export default function LoginForm() {
               width="50"
               height="50"
               alt="logo"
-              className="h-16 w-20 md:h-16 md:w-20"
+              className="h-16 w-20 md:h-16 md:w-20 hidden"
             />
             <h1 className="text-xl hidden lg:flex font-medium text-gray-950 md:text-3xl">
-              TodoVex
+              Task Manager
             </h1>
           </Link>
           <div className="hidden lg:flex w-fit items-center">
@@ -56,12 +56,12 @@ export default function LoginForm() {
               </a>
             </span>
             <h1 className="inline-block text-center text-4xl font-medium tracking-tighter text-dark lg:text-7xl">
-              An Open Source AI-Powered{" "}
+              An AI-Powered{" "}
               <br className="hidden lg:inline-block" />
-              Todoist Clone
+              Task Manager
             </h1>
             <h2 className="mt-8 text-center text-xl font-light tracking-tight lg:text-3xl">
-              TodoVex seamlessly{" "}
+              Task Manager seamlessly{" "}
               <span className="font-bold px-1">organizes your tasks</span> and
               <br className="hidden lg:inline-block" />
               <span className="font-bold px-1">predicts what&apos;s next</span>
@@ -73,7 +73,7 @@ export default function LoginForm() {
               </form>
               <div className="w-fit items-center">
                 <Button
-                  className="text-xl text-center px-4 py-7 bg-transparent border-purple-500/50"
+                  className="text-xl text-center px-4 py-7 bg-transparent border-purple-500/50 hidden"
                   variant={"outline"}
                 >
                   Star on Github ⭐️
@@ -84,7 +84,7 @@ export default function LoginForm() {
         </div>
       </div>
       <div className="">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center hidden">
           <Image
             alt="mobile"
             loading="lazy"
@@ -128,7 +128,7 @@ export default function LoginForm() {
             <a
               className="group"
               aria-label="Twitter"
-              href="https://twitter.com/kulkarniankita9"
+              href="https://twitter.com/"
             >
               <svg
                 aria-hidden="true"
@@ -140,7 +140,7 @@ export default function LoginForm() {
             <a
               className="group"
               aria-label="GitHub"
-              href="https://github.com/kulkarniankita/todoist-clone"
+              href="https://github.com/KhushiSavarn/Task-Manager"
             >
               <svg
                 aria-hidden="true"
@@ -152,7 +152,7 @@ export default function LoginForm() {
             <a
               className="group"
               aria-label="GitHub"
-              href="https://github.com/kulkarniankita/todoist-clone"
+              href="https://github.com/KhushiSavarn/Task-Manager"
             >
               <svg
                 viewBox="0 0 256 180"

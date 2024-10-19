@@ -11,12 +11,9 @@ const ORIGIN_URL =
     : "http://localhost:3000";
 
 export const metadata: Metadata = {
-  title: "Todovex.ai",
+  title: "Task Manager",
   description:
-    "TodoVex seamlessly organizes your tasks and predicts what's nextusing AI.",
-  icons: {
-    icon: "/icon.ico",
-  },
+    "Task Manager seamlessly organizes your tasks and predicts what's nextusing AI.",
   metadataBase: new URL(ORIGIN_URL),
   alternates: {
     canonical: ORIGIN_URL,
